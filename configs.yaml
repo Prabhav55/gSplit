@@ -1,18 +1,21 @@
-spi.topic.consumer.name: 
-mdi.topic.consumer.name:
-mpi.topic.consumer.name:
-hpi.topic.consumer.name:
-imgi.topic.consumer.name:
-spi.topic.producer.name:
-mdi.topic.producer.name:
-mpi.topic.producer.name:
-hpi.topic.producer.name:
-imgi.topic.producer.name:
-spi.topic.pcount: 
-mdi.topic.pcount: 
-mpi.topic.pcount: 
-hpi.topic.pcount: 
-imgi.topic.pcount: 
-apaas_bucket: 
-s3_region:
-brokers:
+s3_region: ap-south-1
+apaas_bucket: wesco-apaas
+azure.service.invoice.connectionString: http://azure-cognitive-service-invoice.azure:80
+brokers: b-2.eaasmsk.ussftb.c2.kafka.ap-south-1.amazonaws.com:9098,b-1.eaasmsk.ussftb.c2.kafka.ap-south-1.amazonaws.com:9098
+spi.topic.consumer.name: apaas.spi.split.ready
+mdi.topic.consumer.name: apaas.mdi.split.ready
+mpi.topic.consumer.name: apaas.mpi.split.ready
+hpi.topic.consumer.name: apaas.hpi.split.ready
+imgi.topic.consumer.name: apaas.imgi.split.ready
+spi.topic.producer.name: apaas.spi.extract.ready
+mdi.topic.producer.name: apaas.mdi.extract.ready
+mpi.topic.producer.name: apaas.mpi.extract.ready
+hpi.topic.producer.name: apaas.hpi.extract.ready
+imgi.topic.producer.name: apaas.imgi.extract.ready
+extractionin.topic.producer.name: apaas.mpi.extract.ready
+spi.topic.pcount: 5
+mdi.topic.pcount: 2
+mpi.topic.pcount: 2
+imgi.topic.pcount: 2
+hpi.topic.pcount: 1
+extractionin.topic.pcount: 2

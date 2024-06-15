@@ -32,6 +32,7 @@ mdiProducerTopicName = os.environ['mdi.topic.producer.name']
 mpiProducerTopicName = os.environ['mpi.topic.producer.name']
 hpiProducerTopicName = os.environ['hpi.topic.producer.name']
 imgiProducerTopicName = os.environ['imgi.topic.producer.name']
+extractionIn = os.environ['extractionin.topic.producer.name']
 
 # Load Parition Count - Scaled Producers and Consumer for Each
 spiTopicPCount = int(os.environ['spi.topic.pcount'])
@@ -39,14 +40,15 @@ mdiTopicPCount = int(os.environ['mdi.topic.pcount'])
 mpiTopicPCount = int(os.environ['mpi.topic.pcount'])
 hpiTopicPCount = int(os.environ['hpi.topic.pcount'])
 imgiTopicPCount = int(os.environ['imgi.topic.pcount'])
-totalThreads = sum([spiTopicPCount, mdiTopicPCount, hpiTopicPCount, imgiTopicPCount, mpiTopicPCount])
+extractionInPCount = os.environ['extractionin.topic.pcount']
+totalThreads = sum([spiTopicPCount, mdiTopicPCount, hpiTopicPCount, imgiTopicPCount, mpiTopicPCount, extractionInPCount])
 
 # Base Configs
 bucket_apaas = os.environ['apaas_bucket']
 s3_region = os.environ['s3_region']
 brokers = os.environ['brokers'].split(',')
 
-logger1.info(f'----------------------------------------------------------------\n')
+logger1.info(f'----------------------------------------------------------------')
 logger1.info(f'Module: Orchestrator | Base topics initialized and counts received from configs.')
 logger1.info(f'Module: Orchestrator | Total number of active python threads will be {totalThreads}')
 logger1.info(f'Module: Orchestrator | Track module in logs before the delimiter. Starting Thread Creation!')
