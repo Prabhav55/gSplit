@@ -1,5 +1,18 @@
-log_path: ./logs/
-consume_topic: apaas-input
-produce_topic: apaas-output
-processor_url: Prabhav55221/glazed_donut
-model_url: Prabhav55221/glazed_donut
+spi.topic.consumer.name: 
+mdi.topic.consumer.name:
+mpi.topic.consumer.name:
+hpi.topic.consumer.name:
+imgi.topic.consumer.name:
+spi.topic.producer.name:
+mdi.topic.producer.name:
+mpi.topic.producer.name:
+hpi.topic.producer.name:
+imgi.topic.producer.name:
+spi.topic.pcount: 
+mdi.topic.pcount: 
+mpi.topic.pcount: 
+hpi.topic.pcount: 
+imgi.topic.pcount: 
+apaas_bucket: 
+s3_region:
+brokers:
