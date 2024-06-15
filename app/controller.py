@@ -139,6 +139,90 @@ def startConsumer(args):
 
                 logger2.info(f'Module: Controller SPI Parition {partitionID} | Ran into unknown exception: {e} for message. Skipping.')
 
+    if consumerType == 'imgi':
+
+        consumer, producer = createConsumerProducer(imgiConsumerTopicName, partitionID)
+        producerTopic = imgiProducerTopicName
+        msgProcessor = imgi.IMGI()
+
+        logger2.info(f'Module: Controller IMGI Parition {partitionID} | Switching on Consumer!')
+        for message in consumer:
+
+            try:
+
+                startTime = time.time()
+                logger2.info(f'Module: Controller IMGI Parition {partitionID} | Received Message. Processing and Decoding.')
+                caseId, status = msgProcessor.process(partitionID, producerTopic, message, producer)
+                curr_time = str(time.time() - startTime)
+                logger2.info(f'Module: Controller IMGI Parition {partitionID} | Status is {status} for message caseId {caseId}. Total time taken is {curr_time}.\n')
+
+            except Exception as e:
+
+                logger2.info(f'Module: Controller IMGI Parition {partitionID} | Ran into unknown exception: {e} for message. Skipping.')
+
+    if consumerType == 'mpi':
+
+        consumer, producer = createConsumerProducer(mpiConsumerTopicName, partitionID)
+        producerTopic = mpiProducerTopicName
+        msgProcessor = mpi.MPI()
+
+        logger2.info(f'Module: Controller MPI Parition {partitionID} | Switching on Consumer!')
+        for message in consumer:
+
+            try:
+
+                startTime = time.time()
+                logger2.info(f'Module: Controller MPI Parition {partitionID} | Received Message. Processing and Decoding.')
+                caseId, status = msgProcessor.process(partitionID, producerTopic, message, producer)
+                curr_time = str(time.time() - startTime)
+                logger2.info(f'Module: Controller MPI Parition {partitionID} | Status is {status} for message caseId {caseId}. Total time taken is {curr_time}.\n')
+
+            except Exception as e:
+
+                logger2.info(f'Module: Controller MPI Parition {partitionID} | Ran into unknown exception: {e} for message. Skipping.')
+
+    if consumerType == 'mdi':
+
+        consumer, producer = createConsumerProducer(mdiConsumerTopicName, partitionID)
+        producerTopic = mdiProducerTopicName
+        msgProcessor = mdi.MDI()
+
+        logger2.info(f'Module: Controller MDI Parition {partitionID} | Switching on Consumer!')
+        for message in consumer:
+
+            try:
+
+                startTime = time.time()
+                logger2.info(f'Module: Controller MDI Parition {partitionID} | Received Message. Processing and Decoding.')
+                caseId, status = msgProcessor.process(partitionID, producerTopic, message, producer)
+                curr_time = str(time.time() - startTime)
+                logger2.info(f'Module: Controller MDI Parition {partitionID} | Status is {status} for message caseId {caseId}. Total time taken is {curr_time}.\n')
+
+            except Exception as e:
+
+                logger2.info(f'Module: Controller MDI Parition {partitionID} | Ran into unknown exception: {e} for message. Skipping.')
+
+    if consumerType == 'hpi':
+
+        consumer, producer = createConsumerProducer(hpiConsumerTopicName, partitionID)
+        producerTopic = hpiProducerTopicName
+        msgProcessor = hpi.HPI()
+
+        logger2.info(f'Module: Controller HPI Parition {partitionID} | Switching on Consumer!')
+        for message in consumer:
+
+            try:
+
+                startTime = time.time()
+                logger2.info(f'Module: Controller HPI Parition {partitionID} | Received Message. Processing and Decoding.')
+                caseId, status = msgProcessor.process(partitionID, producerTopic, message, producer)
+                curr_time = str(time.time() - startTime)
+                logger2.info(f'Module: Controller HPI Parition {partitionID} | Status is {status} for message caseId {caseId}. Total time taken is {curr_time}.\n')
+
+            except Exception as e:
+
+                logger2.info(f'Module: Controller HPI Parition {partitionID} | Ran into unknown exception: {e} for message. Skipping.')
+
 # MAIN FUNCTION
 if __name__ == "__main__":
 
