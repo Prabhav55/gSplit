@@ -1,0 +1,1658 @@
+{
+    "documents": [
+        {
+            "pages": [
+                {
+                    "pageNo": 1,
+                    "header": [
+                        {
+                            "name": "Sold_To_Name",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Invoice_Date",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Invoice_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Total_Amount",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Bank_Details",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Payment_Terms",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "PO_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Zip_Code",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Po_Box",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Remit_To",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Ship_To",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Sub_Total",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "FOI_Supplier_Name",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "isPORestricted",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Reject_Reason",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "ERP_Name",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Po_Type",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Vendor_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Reject_Reason",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Vendor_Name",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Freight_Tracking_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Freight_Tracking_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Currency",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Carrier_Name",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "BillToAddress",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "OCR_ID",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "MailSubject",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "RequestorEmail",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "AttachmentsCount",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Source_Email_Id",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Input_Source",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Image_ID",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Image_Name",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Original_Image_Name",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Cora_Case_Id",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Received_Date",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Country",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Region",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Reject_Reason",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Work_Type",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Document_Type",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Disc_Amount",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "RefNumber_Account",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "TAX_VAT",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "GST",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "HST",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "pst",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "QST",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Vendor_VAT_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Anixter_VAT_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Local_VAT_Amount",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "VAT_Exchange_Rate",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Ship_Date",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Reel_Cost",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "BIR_CARNumber",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Requestor_Name",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Freight",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Weights",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Pieces",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Fuel_Surcharge",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Tax_Invoice_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Vendor_Name",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Vendor_Type",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Location_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Location_Name_Address",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Misc_Charges",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Branch_Code",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Remit_To_Code",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Canada_Tax_Exemption_Code",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Defect_Redist_Allowance",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Duty_Brokerage_Fee",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "RushFee",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "OpenBoxes",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "MinimumOrder",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "SpecialHandingCharges",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "TariffCharges",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Material_Gross_Amt",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Description_H",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Freight_Bill_Number",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "AP_Email_ID",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "MultiplePOs",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "AllowanceCredit",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "SimmPullCharges",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "BundleCharges",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Copper_Charge",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Restock_Charge",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "PromoCharges",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "CuttingCharges",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Accessorial_Charge",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        },
+                        {
+                            "name": "Cora_Case_Child_Id",
+                            "value": "",
+                            "confidence": 1,
+                            "bbox": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "type": "form",
+                            "uuid_list": [
+                                "9b0256b0-0546-42d0-92b5-d427c5efb7df"
+                            ]
+                        }
+                    ],
+                    "lineItems": [
+                        [
+                            {
+                                "name": "Line_Total_Amount",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "ITEM_CODE",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Description",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Quantity_Shipped",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Unit_Of_Measure",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Unit_Price",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Invoice_Line_Number",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Discount",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "PO_NO",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Price_Unit",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "HTS_Code",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Serial_Number",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Copper_Charge",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Misc_Charge",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Tracking_ID",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "VAT",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "isAdditionalCharges",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Type_OF_Cost",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            },
+                            {
+                                "name": "Vendor_Part_Number",
+                                "value": "",
+                                "confidence": 1,
+                                "bbox": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "type": "table",
+                                "uuid_list": [
+                                    "1f62803c-944f-401a-b553-e74771a678c2"
+                                ]
+                            }
+                        ]
+                    ],
+                    "height": 30.5556,
+                    "width": 23.6111,
+                    "angle": 0,
+                    "unit": "inch"
+                }
+            ]
+        }
+    ],
+    "invoiceFileName": "",
+    "caseId": ""
+}

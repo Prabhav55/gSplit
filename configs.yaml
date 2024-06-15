@@ -1,0 +1,5 @@
+log_path: ./logs/
+consume_topic: apaas-input
+produce_topic: apaas-output
+processor_url: Prabhav55221/glazed_donut
+model_url: Prabhav55221/glazed_donut
