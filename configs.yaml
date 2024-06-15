@@ -7,11 +7,11 @@ mdi.topic.consumer.name: apaas.mdi.split.ready
 mpi.topic.consumer.name: apaas.mpi.split.ready
 hpi.topic.consumer.name: apaas.hpi.split.ready
 imgi.topic.consumer.name: apaas.imgi.split.ready
-spi.topic.producer.name: apaas.spi.extract.ready
-mdi.topic.producer.name: apaas.mdi.extract.ready
-mpi.topic.producer.name: apaas.mpi.extract.ready
-hpi.topic.producer.name: apaas.hpi.extract.ready
-imgi.topic.producer.name: apaas.imgi.extract.ready
+spi.topic.producer.name: apaas.spi.split.out
+mdi.topic.producer.name: apaas.mdi.split.out
+mpi.topic.producer.name: apaas.mpi.split.out
+hpi.topic.producer.name: apaas.hpi.split.out
+imgi.topic.producer.name: apaas.imgi.split.out
 extractionin.topic.producer.name: apaas.mpi.extract.ready
 spi.topic.pcount: 5
 mdi.topic.pcount: 2
