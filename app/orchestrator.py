@@ -6,17 +6,11 @@ Functionality:
     - Manages bases logging.
 '''
 
-# Base Imports
-import re
+# Default Imports
 import os
-import json
-import fitz
 import time
-import boto3
 import logging
-import botocore
-from io import BytesIO
-from PIL import Image, ImageSequence
+import subprocess
 
 # Set Logging
 logger1 = logging.getLogger('1')
@@ -52,5 +46,67 @@ bucket_apaas = os.environ['apaas_bucket']
 s3_region = os.environ['s3_region']
 brokers = os.environ['brokers'].split(',')
 
+logger1.info(f'----------------------------------------------------------------\n')
 logger1.info(f'Module: Orchestrator | Base topics initialized and counts received from configs.')
 logger1.info(f'Module: Orchestrator | Total number of active python threads will be {totalThreads}')
+logger1.info(f'Module: Orchestrator | Track module in logs before the delimiter. Starting Thread Creation!')
+logger1.info(f'----------------------------------------------------------------\n')
+startTime = time.time()
+
+# Start Process for Single Page Invoices
+for i in range(spiTopicPCount):
+    assignPartition = i
+    consumerType = 'spi'
+    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    result = subprocess.run(command, text=True, capture_output=True)
+    if result.returncode == 0:
+        logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')
+
+logger1.info(f'Module: Orchestrator | All Threads Created for Consumer Type SPI!\n')
+
+# Start Process for Multi Document Invoices
+for i in range(mdiTopicPCount):
+    assignPartition = i
+    consumerType = 'mdi'
+    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    result = subprocess.run(command, text=True, capture_output=True)
+    if result.returncode == 0:
+        logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')
+
+logger1.info(f'Module: Orchestrator | All Threads Created for Consumer Type MDI!\n')
+    
+# Start Process for Multi Page Invoices
+for i in range(mpiTopicPCount):
+    assignPartition = i
+    consumerType = 'mpi'
+    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    result = subprocess.run(command, text=True, capture_output=True)
+    if result.returncode == 0:
+        logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')
+
+logger1.info(f'Module: Orchestrator | All Threads Created for Consumer Type MPI!\n')
+
+# Start Process for Image Single Page Invoices
+for i in range(imgiTopicPCount):
+    assignPartition = i
+    consumerType = 'imgi'
+    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    result = subprocess.run(command, text=True, capture_output=True)
+    if result.returncode == 0:
+        logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')
+
+logger1.info(f'Module: Orchestrator | All Threads Created for Consumer Type IMGI!\n')
+
+# Start Process for High Priority Queue Invoices
+for i in range():
+    assignPartition = i
+    consumerType = 'hpi'
+    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    result = subprocess.run(command, text=True, capture_output=True)
+    if result.returncode == 0:
+        logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')
+
+curr_time = str(time.time() - startTime)
+logger1.info(f'Module: Orchestrator | All Threads Created for Consumer Type HPI!\n')
+logger1.info(f'Module: Orchestrator | ALL THREADS ARE CREATED! Time Taken is {curr_time} seconds.\n')
+logger1.info(f'----------------------------------------------------------------\n')
