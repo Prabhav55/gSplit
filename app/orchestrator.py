@@ -1,7 +1,7 @@
 '''
 Orchestrator For Consumers and Models
 Functionality:
-    - Based on configs for each topic, creates a python process of type controller with a consumerClass module.
+    - Based on configs for each topic, creates a python3 process of type controller with a consumerClass module.
     - Scales partitions for the topic based on configs.
     - Manages bases logging.
 '''
@@ -50,7 +50,7 @@ brokers = os.environ['brokers'].split(',')
 
 logger1.info(f'----------------------------------------------------------------')
 logger1.info(f'Module: Orchestrator | Base topics initialized and counts received from configs.')
-logger1.info(f'Module: Orchestrator | Total number of active python threads will be {totalThreads}')
+logger1.info(f'Module: Orchestrator | Total number of active python3 threads will be {totalThreads}')
 logger1.info(f'Module: Orchestrator | Track module in logs before the delimiter. Starting Thread Creation!')
 logger1.info(f'----------------------------------------------------------------\n')
 startTime = time.time()
@@ -59,7 +59,7 @@ startTime = time.time()
 for i in range(spiTopicPCount):
     assignPartition = i
     consumerType = 'spi'
-    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    command = ['python3', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
     result = subprocess.run(command, text=True, capture_output=True)
     if result.returncode == 0:
         logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')
@@ -70,7 +70,7 @@ logger1.info(f'Module: Orchestrator | All Threads Created for Consumer Type SPI!
 for i in range(mdiTopicPCount):
     assignPartition = i
     consumerType = 'mdi'
-    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    command = ['python3', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
     result = subprocess.run(command, text=True, capture_output=True)
     if result.returncode == 0:
         logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')
@@ -81,7 +81,7 @@ logger1.info(f'Module: Orchestrator | All Threads Created for Consumer Type MDI!
 for i in range(mpiTopicPCount):
     assignPartition = i
     consumerType = 'mpi'
-    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    command = ['python3', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
     result = subprocess.run(command, text=True, capture_output=True)
     if result.returncode == 0:
         logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')
@@ -92,7 +92,7 @@ logger1.info(f'Module: Orchestrator | All Threads Created for Consumer Type MPI!
 for i in range(imgiTopicPCount):
     assignPartition = i
     consumerType = 'imgi'
-    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    command = ['python3', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
     result = subprocess.run(command, text=True, capture_output=True)
     if result.returncode == 0:
         logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')
@@ -103,7 +103,7 @@ logger1.info(f'Module: Orchestrator | All Threads Created for Consumer Type IMGI
 for i in range():
     assignPartition = i
     consumerType = 'hpi'
-    command = ['python', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
+    command = ['python3', 'controller.py', '--partition', assignPartition, '--consumerClass', consumerType]
     result = subprocess.run(command, text=True, capture_output=True)
     if result.returncode == 0:
         logger1.info(f'Module: Orchestrator | Created thread {assignPartition} of type {consumerType}.')

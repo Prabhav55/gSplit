@@ -312,7 +312,7 @@ class SPI:
                     logger3.info(f'Module: SPI, Parition {partitionID}, Case ID {caseId} | Message Sent To Producer Topic.')
                 except Exception as e:
                     logger3.error(e)
-                    logger3.error('Module: SPI, Parition {partitionID}, Case ID {caseId} | Producer Failed - Retrying')
+                    logger3.error(f'Module: SPI, Parition {partitionID}, Case ID {caseId} | Producer Failed - Retrying')
                     time.sleep(5)
                     producer.send(producerTopic, json.dumps(out_message).encode('utf-8'), partition = partitionID)
                     producer.flush()
@@ -349,7 +349,7 @@ class SPI:
                         producer.flush()
                         logger3.info(f'Module: SPI, Parition {partitionID}, Case ID {caseId} | Message Sent To Producer Topic.')
                     except Exception as e:
-                        logger3.error('Module: SPI, Parition {partitionID}, Case ID {caseId} | Producer Failed - Retrying')
+                        logger3.error(f'Module: SPI, Parition {partitionID}, Case ID {caseId} | Producer Failed - Retrying')
                         time.sleep(5)
                         producer.send(producerTopic, json.dumps(out_message).encode('utf-8'), partition = partitionID)
                         producer.flush()
@@ -382,7 +382,7 @@ class SPI:
                         producer.flush()
                         logger3.info(f'Module: SPI, Parition {partitionID}, Case ID {caseId} | Message Sent To Extraction Topic.')
                     except Exception as e:
-                        logger3.error('Module: SPI, Parition {partitionID}, Case ID {caseId} | Producer Failed - Retrying')
+                        logger3.error(f'Module: SPI, Parition {partitionID}, Case ID {caseId} | Producer Failed - Retrying')
                         time.sleep(5)
                         producer.send(extractionIn, json.dumps(out_message).encode('utf-8'), partition = 0)
                         producer.flush()
